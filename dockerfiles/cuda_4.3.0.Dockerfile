@@ -1,9 +1,7 @@
 FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 
 LABEL org.opencontainers.image.licenses="GPL-2.0-or-later" \
-      org.opencontainers.image.source="https://github.com/rocker-org/rocker-versioned2" \
-      org.opencontainers.image.vendor="Rocker Project" \
-      org.opencontainers.image.authors="Carl Boettiger <cboettig@ropensci.org>"
+      org.opencontainers.image.authors="Sarayut (Nine) Winuthayanon, https://www.linkedin.com/in/winuthayanons/"
 
 ENV R_VERSION=4.3.0
 ENV R_HOME=/usr/local/lib/R
